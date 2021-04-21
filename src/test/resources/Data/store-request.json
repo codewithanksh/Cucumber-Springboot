@@ -1,0 +1,119 @@
+{
+  "storeId": "01114",
+  "isClosed": "false",
+  "location": {
+    "zip": "95035",
+    "hours": "1:10:00:21:00,2:10:00:21:00,3:10:00:21:00,4:10:00:21:00,5:10:00:21:00,6:10:00:21:00,7:11:00:18:00",
+    "locationName": "American Eagle Outlet",
+    "addressLine1": "454 Mall of Travancore",
+    "addressLine2": "454 Great Mall Dr",
+    "city": "Pittsburgh",
+    "bopisEnabled": false,
+    "timezone": "America/New_York",
+    "language": "en",
+    "phone": "4085869520",
+    "countryCode": "US",
+    "storeId": "01114",
+    "state": "CA",
+    "latitude": 37.4157284338244,
+    "longitude": -121.897626681671,
+    "coordinates": [
+      37.4157284338244,
+      -121.897626681671
+    ],
+    "displayAddress": "MALL OF TRAVANCORE",
+    "bopisCutOffTime": 0.0,
+    "storeOpenDate": "2020-10-19",
+    "storeCloseDate": "0001-01-13",
+    "timestamp": 1603096236701,
+    "exceptionHours": [
+      {
+        "date": "2020-10-19",
+        "isClosed": false,
+        "shifts": [
+          {
+            "from": "10:00",
+            "till": "22:00"
+          }
+        ]
+      }
+    ],
+    "weekHours": [
+      {
+        "day": "Friday",
+        "shifts": [
+          {
+            "from": "10:00",
+            "till": "21:00"
+          }
+        ],
+        "isClosed": false
+      },
+      {
+        "day": "Saturday",
+        "shifts": [
+          {
+            "from": "10:00",
+            "till": "21:00"
+          }
+        ],
+        "isClosed": false
+      },
+      {
+        "day": "Sunday",
+        "shifts": [
+          {
+            "from": "10:00",
+            "till": "21:00"
+          }
+        ],
+        "isClosed": false
+      },
+      {
+        "day": "Monday",
+        "shifts": [
+          {
+            "from": "10:00",
+            "till": "21:00"
+          }
+        ],
+        "isClosed": false
+      },
+      {
+        "day": "Tuesday",
+        "shifts": [
+          {
+            "from": "10:00",
+            "till": "21:00"
+          }
+        ],
+        "isClosed": false
+      },
+      {
+        "day": "Wednesday",
+        "shifts": [
+          {
+            "from": "10:00",
+            "till": "21:00"
+          }
+        ],
+        "isClosed": false
+      },
+      {
+        "day": "Thursday",
+        "shifts": [
+          {
+            "from": "10:00",
+            "till": "21:00"
+          }
+        ],
+        "isClosed": false
+      }
+    ],
+    "curbSideEnabled": false,
+    "lockerEnabled": false,
+    "sddEnabled": false,
+    "geoFenceEnabled": false,
+    "parkingInformation": ""
+  }
+}

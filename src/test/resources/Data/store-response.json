@@ -1,0 +1,124 @@
+{
+  "data": {
+    "storeId": "15152",
+    "isClosed": false,
+    "location": {
+      "zip": "16127",
+      "hours": "1:10:00:21:00,2:10:00:21:00,3:10:00:21:00,4:10:00:21:00,5:10:00:21:00,6:10:00:21:00,7:10:00:21:00",
+      "locationName": "American Eagle Outfitters",
+      "addressLine1": "Inter of",
+      "addressLine2": "I-79 #1205",
+      "city": "Grove City",
+      "bopisEnabled": true,
+      "timezone": "America/New_York",
+      "language": "en",
+      "phone": "17782403655",
+      "countryCode": "US",
+      "storeId": "15152",
+      "state": "PA",
+      "latitude": 41.13687092,
+      "longitude": -80.15838359,
+      "displayAddress": "03090-GroveCityStore",
+      "bopisCutOffTime": 2.0,
+      "storeOpenDate": "2020-12-18",
+      "storeCloseDate": "0001-01-29",
+      "timestamp": 1612435266496,
+      "exceptionHours": [
+        {
+          "date": "2021-02-04",
+          "isClosed": false,
+          "shifts": [
+            {
+              "from": "04:00",
+              "till": "21:00"
+            }
+          ]
+        }
+      ],
+      "curbSideEnabled": false,
+      "lockerEnabled": true,
+      "sddEnabled": true,
+      "geoFenceEnabled": true,
+      "parkingInformation": "BC",
+      "coordinates": [
+        41.13687092,
+        -80.15838359
+      ],
+      "weekHours": [
+        {
+          "day": "Wednesday",
+          "shifts": [
+            {
+              "from": "10:00",
+              "till": "21:00"
+            }
+          ],
+          "isClosed": false
+        },
+        {
+          "day": "Thursday",
+          "shifts": [
+            {
+              "from": "04:00",
+              "till": "06:30"
+            }
+          ],
+          "isClosed": false
+        },
+        {
+          "day": "Friday",
+          "shifts": [
+            {
+              "from": "10:00",
+              "till": "21:00"
+            }
+          ],
+          "isClosed": false
+        },
+        {
+          "day": "Saturday",
+          "shifts": [
+            {
+              "from": "10:00",
+              "till": "21:00"
+            }
+          ],
+          "isClosed": false
+        },
+        {
+          "day": "Sunday",
+          "shifts": [
+            {
+              "from": "10:00",
+              "till": "21:00"
+            }
+          ],
+          "isClosed": false
+        },
+        {
+          "day": "Monday",
+          "shifts": [
+            {
+              "from": "10:00",
+              "till": "21:00"
+            }
+          ],
+          "isClosed": false
+        },
+        {
+          "day": "Tuesday",
+          "shifts": [
+            {
+              "from": "10:00",
+              "till": "21:00"
+            }
+          ],
+          "isClosed": false
+        }
+      ],
+      "curbsidePickupRegularWeekSchedule": [],
+      "curbsidePickupExceptionalDatesSchedule": []
+    }
+  },
+  "error": null
+}
