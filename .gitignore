@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Intellij
+.idea/
+
+# Mac
+.DS_Store
+
+# Maven
+log/
