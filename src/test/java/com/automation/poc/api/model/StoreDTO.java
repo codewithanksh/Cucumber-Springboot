@@ -8,10 +8,9 @@ import lombok.experimental.Tolerate;
 @Data
 @Builder
 @JsonIgnoreProperties(ignoreUnknown = true)
-
 public class StoreDTO {
     public String storeId;
-    public Boolean isClosed;
+    public String isClosed;
     public LocationDTO location;
 
     @Tolerate

@@ -43,7 +43,6 @@ public class StoreSteps {
 
         Map<String, String> locationMap = locationMapList.get(0);
         ObjectMapper mapper = new ObjectMapper();
-        locationDTO.setStoreId(String.valueOf(storeId));
         locationDTO = mapper.convertValue(locationMap, LocationDTO.class);
         storeDTO.setLocation(locationDTO);
 
@@ -61,7 +60,7 @@ public class StoreSteps {
         Map<String, String> locationMap = geoLocationMapList.get(0);
         ObjectMapper mapper = new ObjectMapper();
         LocationDTO templocationDTO = mapper.convertValue(locationMap, LocationDTO.class);
-        templocationDTO.setCoordinates(new ArrayList<Double>(Arrays.asList(templocationDTO.getLongitude(), templocationDTO.getLatitude())));
+        templocationDTO.setCoordinates(new ArrayList<Double>(Arrays.asList(templocationDTO.getLatitude(), templocationDTO.getLongitude())));
         CustomBeanUtils.copyPropertiesIgnoreNull(templocationDTO, locationDTO);
         storeDTO.setLocation(locationDTO);
 
@@ -118,6 +117,7 @@ public class StoreSteps {
         ObjectMapper mapper = new ObjectMapper();
         LocationDTO templocationDTO = mapper.convertValue(otherDetailsMap, LocationDTO.class);
         CustomBeanUtils.copyPropertiesIgnoreNull(templocationDTO, locationDTO);
+        locationDTO.setStoreId(String.valueOf(storeId));
         storeDTO.setLocation(locationDTO);
 
         System.out.println("\nOther Details Map Details Added:\n");
@@ -127,7 +127,7 @@ public class StoreSteps {
     @Then("Store should be created successfully with {int} and closed status as {string}")
     public void store_should_be_created_successfully(Integer storeId, String isClosed) throws JsonProcessingException {
         storeDTO.setStoreId(String.valueOf(storeId));
-        storeDTO.setIsClosed(Boolean.parseBoolean(isClosed));
+        storeDTO.setIsClosed(isClosed);
         System.out.println("\nFinal Store Request Payload:\n");
         ObjectMapper mapper = new ObjectMapper();
         System.out.println(mapper.writeValueAsString(storeDTO));

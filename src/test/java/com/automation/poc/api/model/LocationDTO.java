@@ -20,27 +20,27 @@ public class LocationDTO {
     public String addressLine1;
     public String addressLine2;
     public String city;
-    public boolean bopisEnabled;
+    public Boolean bopisEnabled;
     public String timezone;
     public String language;
     public String phone;
     public String countryCode;
     public String storeId;
     public String state;
-    public double latitude;
-    public double longitude;
+    public Double latitude;
+    public Double longitude;
     public List<Double> coordinates;
     public String displayAddress;
-    public double bopisCutOffTime;
+    public Double bopisCutOffTime;
     public String storeOpenDate;
     public String storeCloseDate;
-    public long timestamp;
+    public Long timestamp;
     public List<ExceptionHourDTO> exceptionHours;
     public List<WeekHourDTO> weekHours;
-    public boolean curbSideEnabled;
-    public boolean lockerEnabled;
-    public boolean sddEnabled;
-    public boolean geoFenceEnabled;
+    public Boolean curbSideEnabled;
+    public Boolean lockerEnabled;
+    public Boolean sddEnabled;
+    public Boolean geoFenceEnabled;
     public String parkingInformation;
 
     @Tolerate

@@ -15,7 +15,7 @@ import java.util.List;
 public class WeekHourDTO {
     public String day;
     public List<ShiftsDTO> shifts;
-    public boolean isClosed;
+    public Boolean isClosed;
 
     @Tolerate
     public WeekHourDTO(){}
